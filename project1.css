@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;;
+}
+body{
+background-color: #413F42;
+display: flexbox;
+justify-content: center;
+}
+#header {
+    display: inline-block;
+    vertical-align: top;
+text-transform: uppercase;
+background-color: #ff4655;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+padding: 7px 0px 0px;
+margin: -10px;
+z-index: 100;
+}
+header ul li {
+    display: inline-flex;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 3vw; 
+  }
+  
+#header-img{
+   width: 250px;
+    height:70;
+    margin-left: 20px;
+}
+form{
+    padding: 15px;
+}
+#video{
+padding: 0px;
+width: 600px;
+height: 400px;
+
+}
+.WELCOME{
+    background-color: #ff4655 ;
+}
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    color: #111111;
+  }
+  .copyrights{
+    text-align: right;
+    
+  }
+li {
+color: #111111;
+text-align: center;
+   }
+ul{
+    list-style-type: none ;
+}
+  .agents{
+   
+    border: 2px solid black;
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    margin: 50px 100px;
+    background-color: #413F42;
+  }
+ .here{
+    padding: 0px 13px;
+    background-color: #ff4655 ;
+ } 
+ ul{
+    padding: 0px;
+    list-style: none;
+ }
+ li{
+    padding: 1px 0px;
+ }
+ .ulhere{
+    margin: 15px;
+ }
+
+.MT{
+    display: flex;
+    
+
+    
+}
+.content dt{
+    text-align: center;
+    background-color:#ff4655;
+}
+.content dd{
+    text-align:start;
+    
+    color: #111111;
+}
+.mct{
+ display:flex ;
+
+}
+
+  @media (max-width: 850px) {
+    header ul li {
+        display: flex;
+        flex-direction: column;
+        padding: 3px 0px;
+        text-align: center;
+        margin-right: 80px;
+        width: 100%;
+      
+    }
+    header {
+      display: block;
+      width: 100%;
+    }
+    #video {
+        width: 60vw;
+        margin: 50px 15vw;
+        border: none;
+      }
+      .MT{
+        flex-direction: column;
+        justify-content: space-around;     
+ }
+      
+    
+}
